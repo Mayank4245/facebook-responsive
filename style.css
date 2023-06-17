@@ -1,0 +1,171 @@
+*{
+    padding: opx;
+    margin: 0px;
+}
+.outer1{
+    width: 100%;
+    height: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+}
+.outer{
+    display: flex;
+    /* max-width: 100%; */
+    height: 400px;
+    max-width: 853px;
+    /* background-color: aqua; */
+    margin: auto;
+    gap: 5%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 45%;
+}
+.main{
+    font-size: 50px;
+    color: #1877f2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.desc{
+    font-size: 24px;
+}
+.login{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    /* margin: 10px; */
+    
+}
+.email2 , .email3{
+    display: none;
+}
+input{
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 20px;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+
+}
+.button1{
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    height: 40px;
+    background-color: #1877f2;
+}
+.div1{
+    width: 80%;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #1877f2;
+}
+a:hover{
+    text-decoration: underline;
+}
+.new{
+    width: 80%;
+    
+}
+.button2{
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    height: 40px;
+    background-color: #1ac444;
+}
+@media (max-width:853px){
+    .outer{
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        margin-top: 5%;
+        width: 90%;
+    }
+    .content{
+        margin: auto;
+        width: 85%;
+    }
+    .main{
+        text-align: center;
+    }
+    
+    .login{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .new{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .button2{
+        margin-bottom: 30px;
+        margin-left: -30px;
+        
+    }
+    
+}
+@media (max-width:449px){
+   
+    .email{
+        display: none;
+    }
+    .email2{
+        display: inline-block;
+    }
+
+}
+@media (max-width:408px){
+    .desc{
+        display: none;
+    }
+    
+}
+@media (max-width:367px){
+   
+    .email2{
+        display: none;
+    }
+    .email3{
+        display: inline-block;
+    }
+    
+}
+@media (max-width:299px){
+    .button2{
+        font-size: 18px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+}
+@media (max-width:245px){
+    .button2{
+        font-size: 16px;
+    }
+    
+}
+@media (max-width:225px){
+    .div1{
+        width: 95%;
+    }
+    
+}
